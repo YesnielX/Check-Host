@@ -16,9 +16,9 @@ $ python Check-Host.py
   ```sh
   python Check-Host.py
   ```
-<img src="screenshot.png">
-
-### check host check in repl
+### test host check in repl
 https://repl.it/@jojosamass/Check-host
 
 <img src="screenshot.png">
+
+
