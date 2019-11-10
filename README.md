@@ -14,4 +14,4 @@ $ python Check-Host.py
 
 ## Usage
 
-<img src="">
+<img src="screenshot.png">
