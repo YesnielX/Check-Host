@@ -22,7 +22,7 @@ def check_host():
     system('clear')
     system('cls')
     options()
-    input('Check-Host>')
+    input('Check-Host> ')
     selected()
   else:
     system('clear')
@@ -45,7 +45,7 @@ def options():
 
  ========================================
 
-  WELCOME TO CHEK-HOST
+  WELCOME TO CHEK HOST
 
               by @Jojosamass
        github.com/jojosamass
@@ -60,7 +60,6 @@ def options():
   print('')
 
 options() #print options
-
 input_user = input('Check Host> ')
 
 
@@ -83,8 +82,17 @@ def selected():
 #option 2
   if input_user == '2': 
     system('clear')
+    print('')
+    print('Checking Update . . . ')
+    print('')
+    print('')
     system('git clone https://github.com/jojosamass/Check-host')
-
+    system('clear')
+    print('update successful')
+    time.sleep(2)
+    input('Press Enter You Continue')
+    system('clear')
+    sys.exit()
 #option 3
   if input_user == '3': 
     print('''
