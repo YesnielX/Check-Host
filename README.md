@@ -8,7 +8,7 @@
 
 ```sh
 $ git clone https://github.com/jojosamass/Check-Host.git
-$ cd Check_Host
+$ cd Check-Host
 $ python Check-Host.py
 ```
 
