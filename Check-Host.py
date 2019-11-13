@@ -2,19 +2,21 @@
 from os import sys, system
 import os  
 import time
+import socket
 
 
 #def check-host
 def check_host():
-  host = input('Enter de Host: ')
+  host = input('Enter de Host: ') #HOST NAME
+  ip = socket.gethostbyname(host) # IP HOST
   print('')
   response = os.system("ping -c 1 " + host + " > /dev/null 2>&1")
   if response == 0:
     print('Waiting host . . . ')
     time.sleep(3)
-    print ("%s The host works perfectly" % host)
+    print ("%s The host works perfectly" % host + ' '+ '[' + ip + ']')
     time.sleep(3)
-    backmenu = input('Do you want to return to the start menu? [y/n].')
+    backmenu = input('Do you want to return to the start menu? [y/n]. ')
   else:
     print ("%s The host does not work (Does not respond)" % host)
     
